@@ -1,0 +1,111 @@
+*{
+    margin :0%;
+    padding: 0%;
+}
+html{
+    scroll-behavior: smooth;
+}
+
+
+header h1{
+    margin-left: 650px;
+    color: white;
+    font-family: 'Noto Serif Display', serif;
+        position:absolute;
+    padding-top: 10px;
+}
+.navbar{
+    background-color: rgba(0, 0, 0, 0.466);
+    border-radius: 0px;
+    
+}
+.navbar ul{
+    overflow: auto;
+}
+.navbar li{
+    float:left;
+    list-style: none; 
+    margin: 13px 20px;
+    
+}
+.navbar li a{
+    padding: 3px 3px;
+    text-decoration: none;
+    color: white;
+}
+.navbar li a:hover{
+    color: red
+}
+.search{
+    float: right;
+    color: white;
+    padding: 12px 75px;
+}
+.navbar input{
+    border: 2px solid black;
+    border-radius: 14px;
+    padding: 3px 10px;
+    width: 300px;
+}
+#home{
+    display: flex;
+    flex-direction: column;
+    padding:3px 200px;
+    height: 550px;
+    justify-content: center;
+    align-items: center;
+    background-image: url(https://media.wired.com/photos/5df41d1e283c8b00083c23b2/master/w_2400,h_1804,c_limit/Gear-Used-Laptops-88622716.jpg);
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-size: 100% 100%;
+}
+
+#home::before{ 
+    content: "";
+    position: absolute;
+    
+    height: 642px;
+    top:0px;
+    left:0px;
+    width: 100%;
+    z-index: -1;
+    opacity:0.89;
+}
+
+#home h1{
+    /* color:black; */
+    text-align: center;
+    font-family: 'Bree Serif', serif;
+    font-size: 100px;
+     color: #1d5286; 
+}
+
+#home p{
+    color:white;
+    text-align: center;
+    font-size: 1.5rem;
+    font-family: 'Bree Serif', serif;
+}
+#services{
+    margin: 34px;
+    display: flex;
+}
+#services .box{ 
+    border: 2px solid brown;
+    padding: 34px;
+    margin: 2px 55px;
+    border-radius: 28px;
+    background: #f2f2f2;
+    margin-bottom: 20px;
+}
+
+#services .box img{ 
+   height: 160px;
+   margin: auto;
+   display: block;
+}
+
+#services .box p{
+    font-family: 'Bree Serif', serif;
+
+}
